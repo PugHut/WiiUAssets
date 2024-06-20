@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-image: url("Images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    body img {
+        border-radius: 25px;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.mainpanel {
+    border-radius: 25px;
+    background-image: url("Images/bg2.png");
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 90%;
+    color: white;
+}
